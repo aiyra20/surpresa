@@ -1,10 +1,9 @@
-/* Set the colour and the position of the background and the elements */
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #fae1dd;
+    background-color: #ffffff;
 }
 
 .container {
@@ -23,11 +22,11 @@ body {
     position: relative;
     width: 300px;
     height: 200px;
-    background-color: #f08080;
+    background-color: #ff0000;
 }
 
 .envelope:before {
-    background-color: #f08080;
+    background-color: #ff0000;
     content: "";
     position: absolute;
     width: 212px;
@@ -40,7 +39,7 @@ body {
 
 .card {
     position: absolute;
-    background-color: #eae2b7;
+    background-color: #ffffff;
     width: 270px;
     height: 170px;
     top: 5px;
@@ -51,7 +50,7 @@ body {
 .card:before {
     content: "";
     position: absolute;
-    border: 3px solid #003049;
+    border: 3px solid #000000;
     border-style: dotted;
     width: 240px;
     height: 140px;
@@ -104,7 +103,7 @@ body {
 
 .front {
     position: absolute;
-    border-right: 180px solid #f4978e;
+    border-right: 180px solid #ff0000;
     border-top: 95px solid transparent;
     border-bottom: 100px solid transparent;
     left: 120px;
@@ -117,7 +116,7 @@ body {
 .front:before {
     position: absolute;
     content: "";
-    border-left: 300px solid #f8ad9d;
+    border-left: 300px solid #f72828;
     border-top: 195px solid transparent;
     left: -120px;
     top: -95px;
